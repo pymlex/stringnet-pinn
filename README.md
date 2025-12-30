@@ -67,9 +67,9 @@ use it by setting `use_rff=True`.
 
 **Loss components** are the initial-condition loss, the boundary-condition loss, and the PDE-residual loss, calculated with L2 normalization. The total loss is weighted as follows:
 
-$$L_{\text{total}} = \lambda_{ic} L_{ic} + \lambda_{bc} L_{bc} + \lambda_r\frac{L_r^{\text{weighted}}}{M},$$
+$$\mathcal L_{\text{total}} = \lambda_{ic} \mathcal L_{ic} + \lambda_{bc} \mathcal L_{bc} + \lambda_r\frac{\mathcal L_r^{\text{weighted}}}{M},$$
 
-where $L_r^{\text{weighted}}$ is the temporally weighted sum of residual losses:
+where $\mathcal L_r^{\text{weighted}}$ is the temporally weighted sum of residual losses:
 
 $$\mathcal{L}_r(\mathbf{\theta}) = \frac{1}{M} \sum_{i=1}^M w_i \mathcal L_r^i(\mathbf{\theta}),$$
 $$w_i = \exp\left(- \epsilon \sum_{k=1}^{i-1}  \mathcal{L}_r^k( \mathbf{\theta})\right),$$
