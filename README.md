@@ -23,11 +23,11 @@ Dimensional nonlinear PDEs (first nonlinear approximation, $\rho$ — linear mas
 $$\rho\ u_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) u_{xx} + N (u_x u_{xx} + v_x v_{xx}) u_x,$$
 $$\rho\ v_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) v_{xx} + N (u_x u_{xx} + v_x v_{xx}) v_x.$$
 
-Boundary conditions (clamped ends):
+Boundary conditions for clamped ends:
 
 $$u(0,t)=u(L,t)=0,\qquad v(0,t)=v(L,t)=0.$$
 
-Example initial conditions used (dimensional):
+Example initial conditions used:
 
 $$u(x,0)=A\sin\\Big(\frac{2\pi x}{L}\Big),\quad v(x,0)=4A\frac{x}{L}\Big(1-\frac{x}{L}\Big),\quad u_t(x,0)=v_t(x,0)=0.$$
 
