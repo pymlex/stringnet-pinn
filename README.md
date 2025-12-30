@@ -20,8 +20,8 @@ As a result of this work, a model called StringNet was trained to predict the di
 
 Dimensional nonlinear PDEs (first nonlinear approximation, $\rho$ — linear mass density, $T$ — tension, $N=ES-T$):
 
-$$\rho\, u_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) u_{xx} + N (u_x u_{xx} + v_x v_{xx}) u_x,$$
-$$\rho\, v_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) v_{xx} + N (u_x u_{xx} + v_x v_{xx}) v_x.$$
+$$\rho\ u_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) u_{xx} + N (u_x u_{xx} + v_x v_{xx}) u_x,$$
+$$\rho\ v_{tt} = \Bigl(T + \tfrac12 N (u_x^2 + v_x^2)\Bigr) v_{xx} + N (u_x u_{xx} + v_x v_{xx}) v_x.$$
 
 Boundary conditions (clamped ends):
 
