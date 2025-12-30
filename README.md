@@ -29,7 +29,7 @@ $$u(0,t)=u(L,t)=0,\qquad v(0,t)=v(L,t)=0.$$
 
 Example initial conditions used (dimensional):
 
-$$u(x,0)=A\sin\!\Big(\frac{2\pi x}{L}\Big),\quad v(x,0)=4A\frac{x}{L}\Big(1-\frac{x}{L}\Big),\quad u_t(x,0)=v_t(x,0)=0.$$
+$$u(x,0)=A\sin\\Big(\frac{2\pi x}{L}\Big),\quad v(x,0)=4A\frac{x}{L}\Big(1-\frac{x}{L}\Big),\quad u_t(x,0)=v_t(x,0)=0.$$
 
 Nondimensionalisation:
 
